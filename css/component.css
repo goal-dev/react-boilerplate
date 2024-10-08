@@ -39,6 +39,7 @@ body {
 	position: relative;
 	overflow: auto;
 	opacity: 1;
+	z-index: 2;
 }
 
 /* Revealers */
