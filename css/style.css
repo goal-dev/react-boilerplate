@@ -1029,9 +1029,17 @@ body.light hr.separator {
   z-index: -1;
 }
 
+.portfolio .slideshow ul > li > img {
+  display: none;
+}
+
 .portfolio .slideshow ul > li.show {
   visibility: visible;
   z-index: 0;
+}
+
+.portfolio .slideshow ul > li > img {
+  display: block;
 }
 
 .portfolio .slideshow ul > li:after {
