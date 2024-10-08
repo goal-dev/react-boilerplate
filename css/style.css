@@ -979,7 +979,7 @@ body.light hr.separator {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 1111;
+  z-index: -1;
   opacity: 0;
   visibility: hidden;
   overflow: hidden;
@@ -992,6 +992,7 @@ body.light hr.separator {
 
 .portfolio .slideshow-open .slideshow {
   opacity: 1;
+  z-index: 1111;
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
@@ -1025,10 +1026,12 @@ body.light hr.separator {
   left: 50%;
   margin: -280px 0 0 -330px;
   visibility: hidden;
+  z-index: -1;
 }
 
 .portfolio .slideshow ul > li.show {
   visibility: visible;
+  z-index: 0;
 }
 
 .portfolio .slideshow ul > li:after {
